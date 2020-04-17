@@ -1,11 +1,9 @@
-# Backtracking-Sudoku-Solver
-Through the use of the "Backtracking Algorithm" you are able to solve any Sudoku board
+# Kotlin-SudokuSolver
 
-First create a function to sort through your sudoku board to find all empty spots
+### ***Solve any valid sudoku board in a matter of seconds!***
 
-Second create a function to validate a number placement in the empty spot
-   (validation must consider the row, column, and subgrid placement of the number)
+This program first traverses the sudoku board searching for any empty positions.
+In this case all empty positions are marked as 0.
 
-Third in range of numbers 1 through 9 place a number within the empty spot
-    -if valid, place the number in that empty spot
-    -else try another number
+If an empty position(0) is found, the program attempts to fill it with a valid value (1..9)
+

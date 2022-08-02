@@ -38,7 +38,6 @@ fun beginnerSudokuBoard() = arrayOf(
 
 //Expert
 fun expertSudokuBoard() = arrayOf(
-
     arrayOf(3,0,0,1,0,0,0,8,0),
     arrayOf(0,0,0,0,6,0,0,0,4),
     arrayOf(5,6,0,2,0,0,0,0,0),
@@ -48,7 +47,6 @@ fun expertSudokuBoard() = arrayOf(
     arrayOf(0,0,1,0,0,9,7,0,0),
     arrayOf(0,0,0,0,0,0,0,9,0),
     arrayOf(0,2,0,0,8,0,0,0,0)
-
 )
 
 fun findSolution(board: Array<Array<Int>>) : Array<Array<Int>> {
